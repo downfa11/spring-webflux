@@ -1,0 +1,15 @@
+logging:
+  level:
+    root: INFO
+
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3307/webflux
+    username: root
+    password: namsuck1!
+
+  data:
+    redis:
+      host: 3.34.182.89
+      port: 6379
+      password: 1116
